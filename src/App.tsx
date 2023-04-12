@@ -8,13 +8,18 @@ import { Contacto } from "./components/Contact/Contacto";
 function App() {
     const projectRef = useRef(null);
     const aboutMeRef = useRef(null);
+    const contactRef = useRef(null);
 
     return (
-        <MainLayout aboutMeRef={aboutMeRef} projectRef={projectRef}>
+        <MainLayout
+            aboutMeRef={aboutMeRef}
+            projectRef={projectRef}
+            contactRef={contactRef}
+        >
             <Header />
             <AboutMe aboutMeRef={aboutMeRef} />
             <MyProjects projectRef={projectRef} />
-            <Contacto />
+            <Contacto contactRef={contactRef} />
         </MainLayout>
     );
 }

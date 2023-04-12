@@ -1,7 +1,11 @@
 import { References } from "../layout/MainLayout";
 import { scrollToRef } from "../utils/scrollToRef";
 
-export const Navbar: React.FC<References> = ({ aboutMeRef, projectRef }) => {
+export const Navbar: React.FC<References> = ({
+    aboutMeRef,
+    projectRef,
+    contactRef,
+}) => {
     return (
         <div className="flex justify-end px-4 h-14 text-black items-center">
             <ul className="flex gap-3 font-bold ">
@@ -15,7 +19,11 @@ export const Navbar: React.FC<References> = ({ aboutMeRef, projectRef }) => {
                 >
                     <li className="hover:text-blue-500">Projects</li>
                 </button>
-                <li>Contact</li>
+                <button
+                    onClick={() => scrollToRef({ componentRef: contactRef })}
+                >
+                    <li>Contact</li>
+                </button>
             </ul>
         </div>
     );
