@@ -19,8 +19,8 @@ export const contact = [
         id: 2,
         image: Info.Mail,
         title: "Mail",
-        data: "mailto:camiloi.99@hotmail.com",
-        link: "",
+        data: "camiloi.99@hotmail.com",
+        link: "mailto:camiloi.99@hotmail.com",
     },
     {
         id: 3,
