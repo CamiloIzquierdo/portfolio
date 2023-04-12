@@ -3,7 +3,7 @@ import { Button } from "../Button";
 
 export const MyInfo: React.FC = () => {
     return (
-        <div className="lg:flex md:flex-row lg:items-center lg:justify-center lg:gap-28 flex gap-10 aaa flex-col items-center justify-center">
+        <div className="lg:flex md:flex-row-reverse lg:items-center lg:justify-center lg:gap-28 flex gap-10 aaa flex-col items-center justify-center">
             <img
                 src={Perfil}
                 alt=""
