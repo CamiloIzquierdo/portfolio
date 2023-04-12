@@ -3,7 +3,7 @@ import { ContactItem } from "./ContactItem";
 
 export const ContactMap = () => {
     return (
-        <div className="md:flex-row flex-col flex gap-32 h-fit ">
+        <div className="md:flex-row flex-col flex gap-9 h-fit ">
             {contact.map(({ id, image, title, data }) => (
                 <div key={id} className="flex">
                     <ContactItem image={image} title={title} data={data} />
