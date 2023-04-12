@@ -6,20 +6,20 @@ export const contact = [
         image: Info.Location,
         title: "Location",
         data: "Roldan, Santa Fe, Argentina.",
-        link: "",
+        link: "https://goo.gl/maps/NhLW2CVfQSWUSo9JA",
     },
     {
         id: 1,
         image: Info.Wsp,
         title: "WhatsApp",
         data: "3416851002",
-        link: "",
+        link: "https://wa.me/3416851002",
     },
     {
         id: 2,
         image: Info.Mail,
         title: "Mail",
-        data: "camiloi.99@hotmail.com",
+        data: "mailto:camiloi.99@hotmail.com",
         link: "",
     },
     {
@@ -27,6 +27,6 @@ export const contact = [
         image: Info.Linkedin,
         title: "Linkedin",
         data: "Camilo Izquierdo",
-        link: "",
+        link: "https://www.linkedin.com/in/camilo-izquierdo-99a660229/",
     },
 ];
