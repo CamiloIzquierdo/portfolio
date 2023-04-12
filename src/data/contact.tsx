@@ -13,7 +13,7 @@ export const contact = [
         image: Info.Wsp,
         title: "WhatsApp",
         data: "3416851002",
-        link: "https://wa.me/3416851002",
+        link: "https://wa.me/3416851002?text=Hola!%20estoy%20interesado%20en%20contactarme%20contigo,%20acabo%20de%20ver%20tu%20portfolio.",
     },
     {
         id: 2,
