@@ -7,7 +7,7 @@ export const ProjectsMap: React.FC = () => {
                 ({ id, nameProject, image, live, dataProject, code, tec }) => (
                     <div
                         key={id}
-                        className="flex-col lg:flex-row flex gap-6 h-fit items-center justify-center"
+                        className="flex-col md:flex-row flex gap-6 h-fit items-center justify-center"
                     >
                         <a href={live} target="__blank">
                             <img

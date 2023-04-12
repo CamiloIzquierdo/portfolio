@@ -7,7 +7,7 @@ export const MyInfo: React.FC = () => {
             <img
                 src={Perfil}
                 alt=""
-                className="lg:w-80 lg:h-80 object-cover rounded-full shadow-2xl border-[3px] w-52 h-52"
+                className="md:w-80 md:h-80 object-cover rounded-full shadow-2xl border-[3px] w-52 h-52"
             />
             <div className="lg:flex lg:flex-col lg:gap-3 flex gap-7 flex-col items-center justify-center">
                 <div className="flex flex-col justify-center items-center gap-4 text-center">
