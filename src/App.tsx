@@ -3,6 +3,7 @@ import { MainLayout } from "./layout/MainLayout";
 import { Header } from "./components/Header";
 import { AboutMe } from "./components/AboutMe/AboutMe";
 import { MyProjects } from "./components/Projects/MyProjects";
+import { Contacto } from "./components/Contact/Contacto";
 
 function App() {
     const projectRef = useRef(null);
@@ -13,6 +14,7 @@ function App() {
             <Header />
             <AboutMe aboutMeRef={aboutMeRef} />
             <MyProjects projectRef={projectRef} />
+            <Contacto />
         </MainLayout>
     );
 }

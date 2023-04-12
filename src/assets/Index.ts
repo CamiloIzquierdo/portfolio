@@ -14,3 +14,6 @@ export { default as Live } from "./live.svg";
 export { default as AppGod } from "./appgod.png";
 export { default as Perfil } from "./perfil.jpeg";
 export { default as Windows } from "./windows.png";
+export { default as Wsp } from "./wsp.svg";
+export { default as Location } from "./location.svg";
+export { default as Mail } from "./mail.svg";

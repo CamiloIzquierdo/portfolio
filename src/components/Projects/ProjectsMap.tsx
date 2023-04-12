@@ -13,7 +13,7 @@ export const ProjectsMap: React.FC = () => {
                             <img
                                 src={image}
                                 alt=""
-                                className="rounded-lg hover:scale-105 transition-all lg:h-[300px] lg:w-[500px] h-[200px] w-[350px]"
+                                className="rounded-lg hover:scale-105 transition-all lg:h-[300px] lg:w-[600px] h-[200px] w-[350px]"
                             />
                         </a>
                         <div className="flex flex-col text-center">
