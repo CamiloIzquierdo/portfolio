@@ -1,7 +1,7 @@
 import * as Data from "../assets/Index";
 
 export const projects = [
-    {
+    /* {
         id: 0,
         nameProject: "Windows Xp",
         image: Data.Windows,
@@ -10,7 +10,7 @@ export const projects = [
         tec: "React | Tailwind",
         live: "https://movies-and-resto.vercel.app/",
         code: "https://github.com/CamiloIzquierdo/moviesAndResto",
-    },
+    }, */
     {
         id: 1,
         nameProject: "Ecommerce Reegod",

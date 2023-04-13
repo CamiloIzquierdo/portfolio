@@ -16,7 +16,7 @@ export const ContactItem: React.FC<Props> = ({ image, title, data, link }) => {
             >
                 <img
                     src={image}
-                    width={50}
+                    width={30}
                     className="hover:scale-125 transition-all"
                     alt={`${title} logo`}
                 />
