@@ -1,16 +1,16 @@
 import * as Data from "../assets/Index";
 
 export const projects = [
-    /* {
+    {
         id: 0,
         nameProject: "Windows Xp",
         image: Data.Windows,
         dataProject:
             "Con este proyecto busque replicar algunas funciones de windows xp para mostrar datos sobre mi, estilado a mano",
         tec: "React | Tailwind",
-        live: "https://movies-and-resto.vercel.app/",
-        code: "https://github.com/CamiloIzquierdo/moviesAndResto",
-    }, */
+        live: "https://windowsxp-ten.vercel.app",
+        code: "https://github.com/CamiloIzquierdo/windowsxp",
+    },
     {
         id: 1,
         nameProject: "Ecommerce Reegod",

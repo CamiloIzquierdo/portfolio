@@ -17,7 +17,9 @@ function App() {
             contactRef={contactRef}
         >
             <Header />
+
             <AboutMe aboutMeRef={aboutMeRef} />
+
             <MyProjects projectRef={projectRef} />
             <Contacto contactRef={contactRef} />
         </MainLayout>

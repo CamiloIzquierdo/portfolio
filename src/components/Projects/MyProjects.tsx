@@ -8,7 +8,7 @@ interface Props {
 
 export const MyProjects: React.FC<Props> = ({ projectRef }) => {
     return (
-        <div className="pt-3 gap-3" ref={projectRef}>
+        <div className="gap-3" ref={projectRef}>
             <div className="flex h-full items-center justify-center flex-col gap-28">
                 <Title title={"Mis Proyectos"} />
                 <ProjectsMap />

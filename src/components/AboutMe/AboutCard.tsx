@@ -2,13 +2,13 @@ import { About } from "../../assets/Index";
 
 export const AboutCard: React.FC = () => {
     return (
-        <div className="flex flex-col lg:flex-row justify-center gap-3 border-gray-300 shadow-xl md:hover:scale-105 md:transition-all p-3 rounded-lg w-fit">
+        <div className="flex flex-col lg:flex-row justify-center gap-0 md:gap-3 border-gray-300 shadow-xl md:hover:scale-105 md:transition-all p-3 rounded-lg w-fit">
             <img
                 src={About}
                 alt=""
                 className="rounded-2xl md:w-[500px] md:h-[400px] w-[350px] h-[250px]"
             />
-            <div className="flex flex-col max-w-md gap-2 ">
+            <div className="flex flex-col max-w-md md:gap-2 gap-0 ">
                 <p className="font-bold max-w-xs text-sm">
                     Desarrollador Front-End ubicado en Rosario, Santa Fe. 🗺
                 </p>

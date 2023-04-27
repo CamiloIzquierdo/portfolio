@@ -24,7 +24,9 @@ export const MainLayout: React.FC<Props> = ({
                 projectRef={projectRef}
                 contactRef={contactRef}
             />
-            <div className="md:mx-20 mx-4 my-4">{children}</div>
+            <div className="md:mx-20 mx-4 my-4 lg:mx-28 xl:mx-52 ">
+                {children}
+            </div>
             <Footer />
         </div>
     );

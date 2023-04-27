@@ -9,7 +9,7 @@ interface Props {
 export const AboutMe: React.FC<Props> = ({ aboutMeRef }) => {
     return (
         <div
-            className="flex h-screen items-center justify-center flex-col gap-3"
+            className="flex h-screen items-center justify-center flex-col gap-3 w-full"
             ref={aboutMeRef}
         >
             <Title title={"About Me"} />
