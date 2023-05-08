@@ -28,7 +28,7 @@ export const projects = [
         dataProject:
             "Proyecto pensado para parejas. Donde se puede subir restaurantes y peliculas, darle puntajes y opiniones a los mismos y hasta generar publicaciones en el inicio de la pagina",
         tec: "React | Tailwind",
-        live: "https://movies-and-resto.vercel.app/",
-        code: "https://github.com/CamiloIzquierdo/moviesAndResto",
+        live: "https://movies-snowy-two.vercel.app",
+        code: "https://github.com/CamiloIzquierdo/movies",
     },
 ];
