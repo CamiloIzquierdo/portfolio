@@ -17,3 +17,4 @@ export { default as Windows } from "./windows.png";
 export { default as Wsp } from "./wsp.svg";
 export { default as Location } from "./location.svg";
 export { default as Mail } from "./mail.svg";
+export { default as FreeGG } from "./freegg.png";

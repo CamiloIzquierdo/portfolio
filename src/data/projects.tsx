@@ -31,4 +31,14 @@ export const projects = [
         live: "https://movies-snowy-two.vercel.app",
         code: "https://github.com/CamiloIzquierdo/movies",
     },
+    {
+        id: 3,
+        nameProject: "FreeGG",
+        image: Data.FreeGG,
+        dataProject:
+            "Proyecto realizado con una api de juegos gratis, realizando paginado manual y filtros manuales",
+        tec: "React | Tailwind | TypeScript | Nextjs13",
+        live: "https://freegg.vercel.app/",
+        code: "https://github.com/CamiloIzquierdo/freegg",
+    },
 ];
