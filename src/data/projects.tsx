@@ -41,4 +41,14 @@ export const projects = [
         live: "https://freegg.vercel.app/",
         code: "https://github.com/CamiloIzquierdo/freegg",
     },
+    {
+        id: 4,
+        nameProject: "Manuel Lucero Coach",
+        image: Data.Manuel,
+        dataProject:
+            "Proyecto real y monetizado, entregado por CoderHouse para Manuel Lucero.",
+        tec: "React | Tailwind",
+        live: "https://coder-omega.vercel.app/",
+        code: "https://github.com/CamiloIzquierdo/coder",
+    },
 ];
